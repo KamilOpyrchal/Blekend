@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <link rel="icon" type="image/x-icon" href="./images/bitmapa.png" />
+    <title>Blackend</title>
+    <meta
+      name="keywords"
+      content="HTML, CSS, React, Bootstrap, Blackend, blackend, strony internetowe, programiści"
+    />
+    <meta name="description" content="Tworzenie stron internetowych" />
+    <meta name="author" content="Kamil Opyrchał" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="mt-5 mt-lg-4">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+      <div class="container-lg">
+        <a href="#" class="navbar-brand">
+          <img src="./images/rysunek.png" style="width: 25%; height: 25%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#About" class="nav-link">O nas</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Activity" class="nav-link">Działalność</a>
+            </li>
+            <li class="nav-item">
+              <a href="#Contact" class="nav-link">Kontakt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-dark text-light pt-5" id="About">
+      <div class="container-lg">
+        <div class="d-flex text-lg-start text-center">
+          <div>
+            <h1>
+              O naszej firmie czyli <span class="text-primary"> Blackend</span>
+            </h1>
+            <span class="fs-5">
+              Chcesz aby strona twojej firmy przyciągała klientów? Jeżeli tak to
+              jesteś w idealnym do tego miejscu. Nasi specjaliści sprawią, że
+              twoja strona będzie prosta, estetyczna jak i przejrzysta.<br /><br />
+              Dzięki zatrudnieniu młodych programistów mamy świeże i innowacyjne
+              pomysły, więc jeżeli zależy ci na zwiększeniu swoich zarobków nie
+              czekaj tylko zamów stronę w BlackEnd!
+            </span>
+          </div>
+
+          <img
+            class="img-fluid d-none d-lg-block"
+            src="./images/pic5.png"
+            alt="Programmer"
+            style="width: 50%; height: 50%; margin-left: 3vw"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-danger text-light pt-5" id="Activity">
+      <div class="container">
+        <div class="d-flex text-lg-start text-center">
+          <img
+            class="img-fluid d-none d-lg-block"
+            src="./images/pic3.png"
+            alt="Programmer"
+            style="width: 50%; height: 50%; margin-right: 3vw"
+          />
+
+          <div>
+            <h1>
+              Czym się zajmuje <span class="text-warning"> Blackend?</span>
+            </h1>
+            <span class="fs-5">
+              Nasza firma zajmuje się frontendem, czyli interfejsem graficznym
+              strony. Działamy w takich technologiach jak HTML5, CSS3,
+              JavaScript, Bootstrap5 czy React. Zajmiemy się za ciebie także
+              przesłaniem strony na serwer i udostępnieniem jej w
+              internecie.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-primary text-light pt-5" id="Contact">
+      <div class="container-lg">
+        <div class="d-flex text-lg-start text-center">
+          <div>
+            <h1>Kontakt do <span class="text-info">Blackend</span></h1>
+            <span class="fs-5 pb-3"
+              >Tutaj możesz wysłać do nas e-maila! Staramy się odpowiadać
+              najszybciej jak to możliwe. <br />
+              <br />
+
+              <form
+                action="https://formsubmit.co/d0b500be68caa54167a5b54e2bff3dab"
+                method="POST"
+              >
+                <div class="form-group row">
+                  <label for="mail" class="col-sm-3 col-form-label"
+                    >Twój e-mail</label
+                  >
+                  <div class="col-sm-7">
+                    <input
+                      class="form-control"
+                      type="email"
+                      required
+                      name="email"
+                      id="mail"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="theme" class="col-sm-3 col-form-label"
+                    >Imię</label
+                  >
+                  <div class="col-sm-7">
+                    <input
+                      class="form-control"
+                      type="text"
+                      required
+                      name="theme"
+                      id="theme"
+                    />
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="desc" class="col-sm-3 col-form-label"
+                    >Treść</label
+                  >
+                  <div class="col-sm-7">
+                    <textarea
+                      rows="5"
+                      class="form-control"
+                      type="text"
+                      required
+                      name="desc"
+                      id="desc"
+                    ></textarea>
+                    <button type="submit" class="btn-light my-3">Wyślij</button>
+                  </div>
+                </div>
+              </form>
+            </span>
+          </div>
+
+          <img
+            class="img-fluid d-none d-lg-block"
+            src="./images/pic4.png"
+            alt="Programmer"
+            style="width: 50%; height: 50%; margin-left: 3vw"
+          />
+        </div>
+      </div>
+    </section>
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <span class="lead"
+          ><a
+            href="http://www.freepik.com"
+            class="link-secondary"
+            target="_blank"
+            >Images were designed by vectorjuice / Freepik</a
+          ></span
+        >
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
